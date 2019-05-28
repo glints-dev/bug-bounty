@@ -17,7 +17,6 @@ We are interested in any vulnerability that could negatively affect the security
 * Exposed Administrative Panels that don't require login credentials
 * Directory Traversal Issues
 * Local File Disclosure (LFD)
-* Open Redirects
 
 ## In-Scope Properties
 
@@ -50,6 +49,7 @@ We are interested in any vulnerability that could negatively affect the security
 * Banner grabbing issues (figuring out what web server we use, etc.).
 * Open ports without an accompanying proof-of-concept demonstrating vulnerability.
 * Recently disclosed 0day vulnerabilities. We need time to patch our systems just like everyone else - please give us two weeks before reporting these types of issues.
+* Open Redirects
 
 # Rewards
 
