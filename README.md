@@ -73,22 +73,22 @@ At the end of the day, all reward amounts are at our discretion, but we aim to b
 ## Bounty Payout Range
 N.B: the amounts listed here are the maximum we can pay for these categories of issues. This is meant as rough guidance on how we think about rewarding issues, ultimately we will reward largely based on the impact of the issue but at our discretion. 
 
-* **Critical issues (SGD 700)** - Remote code execution on a production server. Exposure of information that identifies individuals (social security numbers, credit card numbers, bank account numbers). Full account takeover of account without interaction. Payment or partner invoice information exposure at scale. Potential access to source code. XSS in Toolshed (our internal account management system), or server-side request forgery (SSRF). Vulnerabilities leading to the compromise of an employee account (with a way to bypass two-factor).
+* **Critical issues (SGD 700)** - Remote code execution on a production server. Full account takeover of account without interaction. Payment or partner invoice information exposure at scale. Potential access to source code. XSS or server-side request forgery (SSRF). Vulnerabilities leading to the compromise of an employee account (with a way to bypass two-factor).
 
 * **Significant Issues (SGD 350)** - Stored Cross-site Scripting which can cause significant brand damage (e.g. in a homepage), missing authorization checks leading to the exposure of email addresses, date of birth, names, phone numbers, etc.
 
-* **Medium Issues (SGD 100)** - Reflected Cross-site Scripting (XSS), most Cross-site Request Forgery (CSRF) issues, access control issues which do not exposed PII but affect other accounts, some account validation bypasses (being able to change profile picture, etc). Any vulnerability which allows the bulk lookup of user UUIDs (e.g. turn an auto-incrementing ID into a UUID, turn an email into a UUID).
+* **Medium Issues (SGD 100)** - Reflected Cross-site Scripting (XSS), most Cross-site Request Forgery (CSRF) issues, access control issues which do not expose PII but affect other accounts, some account validation bypasses (being able to change profile picture, etc). Any vulnerability which allows the bulk lookup of user UUIDs (e.g. turn an auto-incrementing ID into a UUID, turn an email into a UUID).
 
-* **Fraud Issues** - Send these to `hi@glints.com`. We currently do not reward for fraud issues. 
+* **Fraud Issues** - Send these to `team-security@glints.com`. We currently do not reward for fraud issues. 
 
 # Miscellany
 
 ## Reporting Guidelines
-We need detailed written steps to reproduce. We do not accept reports that include only a video. Report your issue to tech@glints.com.
+We need detailed written steps to reproduce. We do not accept reports that include only a video. Report your issue to team-security@glints.com.
 
 ## Fraud issues
 
-If you would like to report an issue related to fraud, please contact hi@glints.com. These type of issues are important but we unfortunately cannot reward issues if this type at this time. We do not consider these in scope for our bug bounty program at this time unless they show an explicit technical vulnerability in our software.  Lack of verification for things such as phone numbers, credit cards, etc are all fraud related issues and are not in scope for this bug bounty program.
+If you would like to report an issue related to fraud, please contact team-security@glints.com. These type of issues are important but we unfortunately cannot reward issues if this type at this time. We do not consider these in scope for our bug bounty program at this time unless they show an explicit technical vulnerability in our software.  Lack of verification for things such as phone numbers, credit cards, etc are all fraud related issues and are not in scope for this bug bounty program.
 
 ## Examples of good bugs
 
