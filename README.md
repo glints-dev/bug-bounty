@@ -50,6 +50,7 @@ We are interested in any vulnerability that could negatively affect the security
 * Open ports without an accompanying proof-of-concept demonstrating vulnerability.
 * Recently disclosed 0day vulnerabilities. We need time to patch our systems just like everyone else - please give us two weeks before reporting these types of issues.
 * Open Redirects
+* Leakage of possibly sensitive query parameters (e.g. tokens with limited lifetime) to trusted third parties, including but not limited to: Google, Facebook, Amplitude, Front App, LinkedIn and Hotjar
 
 # Rewards
 
