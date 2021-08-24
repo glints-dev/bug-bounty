@@ -80,16 +80,16 @@ N.B: the amounts listed here are the maximum we can pay for these categories of 
 
 * **Medium Issues (SGD 100)** - Reflected Cross-site Scripting (XSS), most Cross-site Request Forgery (CSRF) issues, access control issues which do not expose PII but affect other accounts, some account validation bypasses (being able to change profile picture, etc). Any vulnerability which allows the bulk lookup of user UUIDs (e.g. turn an auto-incrementing ID into a UUID, turn an email into a UUID).
 
-* **Fraud Issues** - Send these to `team-security@glints.com`. We currently do not reward for fraud issues. 
+* **Fraud Issues** - Send these to `security@glints.com`. We currently do not reward for fraud issues. 
 
 # Miscellany
 
 ## Reporting Guidelines
-We need detailed written steps to reproduce. We do not accept reports that include only a video. Report your issue to team-security@glints.com.
+We need detailed written steps to reproduce. We do not accept reports that include only a video. Report your issue to security@glints.com.
 
 ## Fraud issues
 
-If you would like to report an issue related to fraud, please contact team-security@glints.com. These type of issues are important but we unfortunately cannot reward issues if this type at this time. We do not consider these in scope for our bug bounty program at this time unless they show an explicit technical vulnerability in our software.  Lack of verification for things such as phone numbers, credit cards, etc are all fraud related issues and are not in scope for this bug bounty program.
+If you would like to report an issue related to fraud, please contact security@glints.com. These type of issues are important but we unfortunately cannot reward issues if this type at this time. We do not consider these in scope for our bug bounty program at this time unless they show an explicit technical vulnerability in our software.  Lack of verification for things such as phone numbers, credit cards, etc are all fraud related issues and are not in scope for this bug bounty program.
 
 ## Examples of good bugs
 
