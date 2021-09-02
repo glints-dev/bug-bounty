@@ -1,6 +1,6 @@
 # Site settings
-title:          Glints Security
-description:    "Public bug Bounty Program"
+title:          Glints
+description:    "Public BugBounty Program"
 baseurl:        "bugbounty/"
 url:            ""
 
