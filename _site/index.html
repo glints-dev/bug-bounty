@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Glints Security | Public bug Bounty Program</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Glints Security" />
+<meta name="author" content="Avinash" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Public bug Bounty Program" />
+<meta property="og:description" content="Public bug Bounty Program" />
+<link rel="canonical" href="/" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="Glints Security" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Glints Security" />
+<script type="application/ld+json">
+{"description":"Public bug Bounty Program","url":"/","headline":"Glints Security","@type":"WebSite","author":{"@type":"Person","name":"Avinash"},"name":"Glints Security","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/woff2/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="/assets/fonts/woff2/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin="">
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Glints Security" />
+
+  <!-- Google Analytics-->
+  
+</head>
+
+
+  <body>
+
+    <nav class="nav">
+  <div class="nav-container">
+    <a href="/">
+      <img style="width:170px;" src="/assets/glints-security-logo.png " alt="Glints Security">
+    </a>
+    <ul>
+      <li><a href="#">HALL OF FAME</a></li>
+
+      <li><a href="#rewards">REWARDS</a></li>
+        <li><a href="#scope">SCOPE</a></li>
+      <li><a href="#frequently-asked-questions">FAQ</a></li>
+      <li><div style="color:white" class="ButtonStyle__SolidBtnContainer-jyb3o2-2 kguTdx aries-solid-btn DesktopMenuComponentssc__EmployersButton-wdt612-4 NOCIx"><a class="ButtonStyle__Button-jyb3o2-0 ButtonStyle__SolidBtn-jyb3o2-1 gDngks solid-btn-content" href="mailto:security@glints.com" target="_blank">Submit a vulnerability &nbsp; <span class="ButtonStyle__EndIconContainer-jyb3o2-10 hZLrSh"><svg data-testid="icon-svg" class="IconStyle__VerticalCenteredSvg-x7d280-0 iFpcQN" width="1em" height="1em" fill="currentColor" viewBox="0 0 100 100"><path d="M5.83742757,43.7842786 L80.1831175,43.7842786 L52.2063422,16.8436802 C50.9974631,15.7211497 50.3930327,14.3827679 50.3930327,12.8284949 C50.3930327,11.2742218 50.9327027,9.91425326 52.012059,8.74854846 C53.0914153,7.58284366 54.4082103,7 55.9624833,7 C57.5167564,7 58.8983117,7.51808325 60.1071908,8.55426529 L98.1866905,45.3385439 C99.3955695,46.4610745 100,47.821043 100,49.4184903 C100,51.0159376 99.3955695,52.3759062 98.1866905,53.4984367 L59.8481466,90.4122375 C58.725616,91.4484195 57.4304079,91.9665028 55.9624833,91.9665028 C54.3218618,91.9665028 52.9403064,91.3620723 51.8177759,90.1531933 C50.6952453,89.0306627 50.1555753,87.692281 50.1987495,86.1380079 C50.2419238,84.5837349 50.8247674,83.2453531 51.947298,82.1228226 L79.9240733,55.1822241 L5.70790546,55.1822241 C4.2399809,55.1822241 2.94477277,54.6641409 1.82224222,53.6279588 C0.699711677,52.5917768 0.0952812177,51.3397423 0.00893271403,49.8718177 C-0.0774157896,48.2311961 0.462254263,46.8064672 1.62795906,45.5975881 C2.79366386,44.3887091 4.196806,43.7842786 5.83742757,43.7842786 Z"></path></svg></span></a></div></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <main>
+            <div class="post">
+
+<svg data-testid="icon-svg" class="IconStyle__VerticalCenteredSvg-x7d280-0 iFpcQN" width="1em" height="1em" fill="#0BAEEC" viewBox="0 0 100 100"><path d="M36.0006567,8 C39.3335644,8 42.1673568,9.11355563 44.5002828,11.3404579 C46.8332087,13.5673602 48,16.2715305 48,19.4540136 L48,19.4540136 L48,61.4538046 C48,65.5899878 47.1561012,69.5372698 45.4689604,73.2958596 C43.7816006,77.0546583 41.5001186,80.3052628 38.6256088,83.0499716 C35.7504424,85.7944715 32.3444187,87.9726858 28.4068811,89.5831517 C24.4691245,91.1934088 20.3336921,92 15.999927,92 L15.999927,92 L12.0002189,92 C10.9159567,92 9.97967784,91.6209439 9.18700403,90.8659661 C8.39564369,90.1105705 7.99963515,89.2137079 7.99963515,88.1812293 L7.99963515,88.1812293 L7.99963515,80.5438968 C7.99963515,79.5097466 8.39564369,78.6145557 9.18700403,77.8593689 C9.97902111,77.1041822 10.9161756,76.7253351 12.0002189,76.7253351 L12.0002189,76.7253351 L15.9997081,76.7253351 C20.4170969,76.7253351 24.187606,75.2337682 27.312549,72.2516792 C30.4372731,69.2681274 32.000073,65.669811 32.000073,61.4535956 L32.000073,61.4535956 L32.000073,59.5455685 C32.000073,57.9539091 31.4168962,56.6008836 30.2501049,55.4881638 C29.0833136,54.3748172 27.6663079,53.8177259 26.0001824,53.8177259 L26.0001824,53.8177259 L12.0002189,53.8177259 C8.66709233,53.8177259 5.83308098,52.7035434 3.49949833,50.4768501 C1.16613459,48.2499478 0,45.5459864 0,42.3637123 L0,42.3637123 L0,19.4548494 C0,16.2723663 1.16679132,13.5679871 3.49949833,11.3406669 C5.83329989,9.11376459 8.66643559,8 12.0002189,8 L12.0002189,8 Z M87.9991243,8 C91.3329685,8 94.1663748,9.11376459 96.4991243,11.3406669 C98.8336252,13.5673602 99.9993433,16.2715305 100,19.4540136 L100,19.4540136 L100,61.4538046 C100,65.5899878 99.155648,69.5381056 97.4686953,73.2958596 C95.7823993,77.0538225 93.4995622,80.3052628 90.6243433,83.0499716 C87.7489054,85.7944715 84.3432574,87.9726858 80.4063047,89.5831517 C76.4680385,91.1934088 72.3327496,92 67.9995622,92 L67.9995622,92 L63.9991243,92 C62.915718,92 61.9776708,91.6209439 61.1867338,90.8659661 C60.3949212,90.1105705 59.9984676,89.2137079 59.9984676,88.1812293 L59.9984676,88.1812293 L59.9984676,80.5438968 C59.9984676,79.5097466 60.3949212,78.6145557 61.1867338,77.8593689 C61.9778897,77.1041822 62.915937,76.7253351 63.9991243,76.7253351 L63.9991243,76.7253351 L67.9995622,76.7253351 C72.4174694,76.7253351 76.1871716,75.2337682 79.3119527,72.2516792 C82.4373905,69.2681274 84.0002189,65.669811 84.0002189,61.4535956 L84.0002189,61.4535956 L84.0002189,59.5455685 C84.0002189,57.9539091 83.415718,56.6015105 82.2502189,55.4881638 C81.0836252,54.3748172 79.6654991,53.8177259 77.9993433,53.8177259 L77.9993433,53.8177259 L63.9991243,53.8177259 C60.6654991,53.8177259 57.8320928,52.7035434 55.4991243,50.4768501 C53.1663748,48.2499478 52,45.5459864 52,42.3637123 L52,42.3637123 L52,19.4548494 C52,16.2723663 53.1663748,13.5681961 55.4991243,11.3406669 C57.8320928,9.11376459 60.6652802,8 63.9991243,8 L63.9991243,8 Z"></path></svg>
+  <p><strong>Security researchers are invited to investigate vulnerabilities in Glints, so long as their research follows this responsible research and disclosure policy.</strong></p>
+
+<p>If you find an issue involving security, please let us know as soon as possible, and we’ll make every effort to correct the problem quickly if it’s validated. It’s against the Glints policy not to disclose information about a problem outside of the program without the Glints team’s explicit permission.</p>
+
+<p>By ensuring you agree to be bound by these rules by participating in this program:</p>
+
+<ul>
+  <li>Any User data and Glints proprietary data are not leaked, manipulated, altered, modified and/or destroyed in any way.</li>
+  <li>Only test against accounts you own yourself or with the explicit permission of the account holder.</li>
+  <li>Automated/scripted account creation is not permitted.</li>
+  <li>If customers need to be enumerated in bulk, reduce the amount of information you collect. A small sample will suffice for proving the concept.</li>
+</ul>
+
+<center><div class="ValuePropositionComponentssc__DividerWrapper-tfzgij-8 ebvOVS"><div class="DividerStyle__DividerContainer-sc-1s5eeou-0 bbkhVX aries-divider"></div></div></center>
+
+<h2 id="rewards"><a href="#rewards">Rewards</a></h2>
+<p>Impact-based rewards are our reward strategy. Thus, for example, we will offer a relatively high reward for a vulnerability that may leak sensitive user data, but very little to no reward for a vulnerability that might allow an attacker to deface a microsite. Our reward meetings have always included one question: If someone uses this in a malicious manner, how bad will it be? We assume the worst and pay out the bug accordingly.</p>
+
+<p>In the event that we receive several reports for the same issue, we award the bounty to the earliest report with sufficient actionable information. We don’t want to encourage people to spam us with vague issues in an effort to be first.</p>
+
+<p>In the event that a single fix fixes multiple vulnerabilities, we treat it as a single vulnerability. As an example, if you find three vulnerabilities in a WordPress plugin we use, and our fix is to remove the plugin, you will receive a single bounty, as always determined by impact.</p>
+
+<p>The payout ranges on this page are guidelines for expressing roughly how we think about the severity of different types of issues. These are not exact rules. Depending on their severity, bugs may have different attributes, which can affect payouts.</p>
+
+<p>Ultimately, all reward amounts are at our discretion, but we strive to be fair. Some researchers will disagree with some of our decisions, but we pay out according to our ethical obligations and trust that most will consider their rewards fair and in many cases generous. The program will be tailored as it continues.</p>
+
+<p> 💰 We try our best to cycle bounty payouts on Fridays.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Severity</strong></th>
+      <th style="text-align: center">Bounty  </th>
+      <th style="text-align: left">Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Critical</td>
+      <td style="text-align: left">700 SGD</td>
+      <td style="text-align: left"><ul><li>Remote code execution on a production server.</li><li>Full account takeover of account without interaction.</li><li>Payment or partner invoice information exposure at scale.</li><li>Potential access to source code.</li><li>Vulnerabilities leading to the compromise of an employee account.</li><li>2FA bypass. etc.</ul></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>High</td>
+      <td style="text-align: left">300 SGD</td>
+      <td style="text-align: left"><ul><li>Stored Cross-site Scripting which can cause significant brand damage (e.g. in a homepage).</li><li>missing authorization checks leading to the exposure of email addresses, date of birth, names, phone numbers, etc.</li></ul></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Medium</td>
+      <td style="text-align: left">100 SGD</td>
+      <td style="text-align: left"><ul><li>Reflected Cross-site Scripting (XSS).</li><li>Cross-site Request Forgery (CSRF) issues.</li><li> Access Control issues which do not expose PII but affect other accounts.</li><li>Account validation bypasses (being able to change profile picture, etc).</li><li>Any vulnerability which allows the bulk lookup of user UUIDs (e.g. turn an auto-incrementing ID into a UUID, turn an email into a UUID). etc.</li></ul></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Low</td>
+      <td style="text-align: left">50 SGD</td>
+      <td style="text-align: left"><ul><li>Exposed logs without sensitive information.</li><li> Exposed API keys with low privileges, etc.</li></ul></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Trivial</td>
+      <td style="text-align: left">No Rewards</td>
+      <td style="text-align: left"><ul><li>Duplicate.</li><li>N.A</li><li>Informational bug(s)</li></ul></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h2 id="scope"><a href="#scope">Scope</a></h2>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">glints.com</code></li>
+  <li><code class="language-plaintext highlighter-rouge">employers.glints.com</code></li>
+</ul>
+
+
+<h3 id="out-of-scope-vulnerabilities">Out-of-Scope Vulnerabilities</h3>
+
+<p>In this section, you will find issues that will not be accepted under this program due to their malicious nature or low security impact and will be immediately marked as invalid.</p>
+
+<p>There are certain findings that are explicitly excluded from the bounty program:</p>
+
+<ul>
+  <li>Error messages defined as descriptive (eg. <code class="language-plaintext highlighter-rouge">stacktraces</code>, errors in applications and servers).</li>
+  <li>Host header issues without an accompanying proof-of-concept demonstrating vulnerability.</li>
+  <li>Leakage of possibly sensitive query parameters (e.g. tokens with limited lifetime) to trusted third parties, including but not limited to: <em>Google, Facebook, Amplitude, Front App, LinkedIn and Hotjar.</em></li>
+  <li>Open redirects, most open redirects pose no security risks. Nevertheless, we do want to hear about the most severe cases, e.g. stealing authorization tokens.</li>
+  <li>Login panels that are publicly accessible without any evidence that they have been exploited.</li>
+  <li>Without a proven proof of concept, reports that claim software is out of date or vulnerable.</li>
+  <li>Broken Links.</li>
+  <li>Fingerprinting and banner disclosure for public services.</li>
+  <li>List of publicly available files and directories (for example, <code class="language-plaintext highlighter-rouge">robots.txt</code>).</li>
+  <li>Clickjacking/Tapjacking and issues only exploitable through clickjacking/tapjacking.</li>
+  <li>CSV injection.</li>
+  <li>A security issue requiring physical access to the device.</li>
+  <li>CSRF in forms that are available to anonymous users (e.g. the contact form).</li>
+  <li>Login &amp; Logout CSRF.</li>
+  <li>Path Disclosure.</li>
+  <li>WordPress username enumeration.</li>
+  <li>Autocomplete or password saving functionality in the application or browser.</li>
+  <li>Lack of Secure/HTTPOnly flags on non-security-sensitive Cookies.</li>
+  <li>Weak Captcha / Captcha Bypass.</li>
+  <li>Login or Forgot Password page brute force and account lockout not enforced.</li>
+  <li><code class="language-plaintext highlighter-rouge">OPTIONS</code> HTTP method enabled.</li>
+  <li>Content injection issues.</li>
+  <li>HTTPS Mixed Content Scripts.</li>
+  <li>Content Spoofing without embedded links/HTML.</li>
+  <li>Self-XSS that can not be used to exploit other users (this includes having a user paste JavaScript into the browser console).</li>
+  <li>Reflected File Download (RFD).</li>
+  <li>XSS issues that affect only outdated browsers (like Internet Explorer).</li>
+  <li>Flashed based XSS (XSF).</li>
+  <li>Best practices concerns.</li>
+  <li>Wordpress XMLRPC issues.</li>
+  <li><code class="language-plaintext highlighter-rouge">window.opener</code> related issues.</li>
+  <li>
+    <p>Missing HTTP security headers, specifically, For e.g:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">Strict-Transport-Security</code></li>
+      <li><code class="language-plaintext highlighter-rouge">X-Frame-Options</code></li>
+      <li><code class="language-plaintext highlighter-rouge">X-XSS-Protection</code></li>
+      <li><code class="language-plaintext highlighter-rouge">X-Content-Type-Options</code></li>
+      <li><code class="language-plaintext highlighter-rouge">Content-Security-Policy</code></li>
+      <li><code class="language-plaintext highlighter-rouge">X-Content-Security-Policy</code></li>
+      <li><code class="language-plaintext highlighter-rouge">X-WebKit-CSP</code></li>
+      <li><code class="language-plaintext highlighter-rouge">Content-Security-Policy-Report-Only</code></li>
+    </ul>
+  </li>
+  <li>
+    <p>Infrastructure vulnerabilities, including:</p>
+
+    <ul>
+      <li>Certificates/TLS/SSL related issues.</li>
+      <li>DNS issues (i.e. MX records, SPF records, etc.).</li>
+      <li>Server configuration issues (i.e., open ports, TLS, etc.).</li>
+    </ul>
+  </li>
+  <li>All vulnerabilities within our performance testing, unit test, or staging environments.</li>
+  <li>Physical or social engineering attempts (this includes phishing attacks against Glints employees)</li>
+  <li>Microsites with little to no user data.</li>
+  <li>Issues requiring user-interaction.</li>
+  <li>Outdated WordPress instance</li>
+  <li>Denial of service.</li>
+  <li>Spamming.</li>
+</ul>
+
+<h3 id="fraud-issues">Fraud issues</h3>
+<p>If you wish to report fraud, please email <code class="language-plaintext highlighter-rouge">reportfraud@glints.com</code>. Despite the importance of these types of issues, our current rewards program cannot support this type of issue. The bug bounty program does not currently consider these to be a part of its scope unless they show a specific technical vulnerability in our software. Verifying phone numbers, credit cards, etc., is fraud-related and not covered by the bug bounty program.</p>
+
+<h2 id="frequently-asked-questions"><a href="#frequently-asked-questions">Frequently Asked Questions</a></h2>
+
+<ul>
+  <li>
+    <p><strong>Can I blog about my bug?</strong></p>
+
+    <p>Certainly, but we ask you to wait until the issue is both resolved and paid before you publish the blog post.</p>
+  </li>
+  <li>
+    <p><strong>What is your policy on chaining bugs and privilege escalation?</strong></p>
+
+    <p>Bug chains are welcome and we enjoy seeing clever exploit chains! However, if you have managed to compromise a Glints-owned server, we do not allow for escalations such as port scanning internal networks, privilege escalation attempts, attempting to pivot to other systems, etc. In the event that you get access to the Glints server, please notify us of that, and you will be rewarded with a bounty taking into account the severity of what could be accomplished. Combining a CSRF vulnerability with a self-XSS? Well done! Using AWS access keys to dump user information? This is a no-no.</p>
+  </li>
+  <li>
+    <p><strong>Do you provide test accounts?</strong></p>
+
+    <p>Currently, we do not have a good system for creating test accounts for our bug bounty reporters. Create an account as you would normally, and test with that account or accounts. Test against yourself whenever possible, never against another user. If there is ever a situation where you cannot test a bug while adhering to this please let us know and we will help figure out an appropriate solution.</p>
+  </li>
+  <li>
+    <p><strong>What about public disclosure?</strong></p>
+
+    <p>Do you know of an interesting or clever bug in a Glints service? We’re more than happy to publicly disclose your bug once our developers have resolved it. Glints reserves the right to request additional time in some cases to investigate an issue internally and ensure that it is properly addressed across all services. Public disclosure before Glints has had time to remediate an issue is grounds for immediate forfeiture of any reward as well as possible removal from the bug bounty program.</p>
+  </li>
+  <li>
+    <p><strong>What is a Glints microsite?</strong></p>
+
+    <p>The Glints microsite is an unspecified website made by a Glints employee and owned by Glints but not explicitly listed above. Microsites include Glints city job sites, blogs, and partner sites etc.</p>
+
+    <p>Glints uses microsites to communicate programs, offers, and policies. Because they have smaller audiences, they should not contain much or any user data, and they are not part of our core services, the impact of issues on these sites would be significantly less severe. Since we are primarily interested in vulnerabilities that could lead to the exfiltration of customer information, vulnerabilities in microsites will not be rewarded except in extraordinary circumstances. In general, you might want to invest your time elsewhere instead of microsites.</p>
+  </li>
+</ul>
+
+<center><div class="ValuePropositionComponentssc__DividerWrapper-tfzgij-8 ebvOVS"><div class="DividerStyle__DividerContainer-sc-1s5eeou-0 bbkhVX aries-divider"></div></div></center>
+
+</div>
+
+    </main>
+
+    <footer>
+  <span>
+    Glints Intern Pte Ltd & Glints Singapore Pte Ltd &copy; <time datetime="2021-09-02 01:22:44 +0800">2021</time>
+  </span>
+
+</footer>
+
+    
+  </body>
+</html>
