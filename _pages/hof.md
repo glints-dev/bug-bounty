@@ -34,4 +34,12 @@ We are happy to present you the list of researchers who have participated in the
 
 -   TUSHAR SHARMA
 
+-   HULI
+
+-   PARKERZANTA
+
+-   MUHAMMAD AZHARI
+
+-   MARZUKI
+
 <img style="width:10%px;" src="/assets/200w.gif" alt="Glints Security">
