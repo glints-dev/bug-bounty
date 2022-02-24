@@ -1,6 +1,6 @@
 # Site settings
 title:          Glints
-description:    "Public BugBounty Program"
+description:    "Vulnerability Disclosure Program"
 baseurl:        ""
 url:            ""
 
