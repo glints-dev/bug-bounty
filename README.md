@@ -2,7 +2,7 @@
 
 ---
 
-### Glints BugBounty Program
+### Glints Vulnerability Disclosure Program
 
 **Security researchers are invited to investigate vulnerabilities in Glints, so long as their research follows this responsible research and disclosure policy.**
 
